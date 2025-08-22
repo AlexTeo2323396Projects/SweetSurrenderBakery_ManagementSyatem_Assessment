@@ -144,7 +144,7 @@ def average_calories():
                         print("No ingredients found to calculate calories for!")
                 return
 
-                total_calories = sum(emp[3] for emp in ingredients.values())  # Summing salaries
+                total_calories = sum(emp[3] for emp in ingredients.values())  # Summing calories
                 avg_calories = total_calories / len(ingredients)
     
                 print(f"\naverage calories: {avg_calories:.2f}")
